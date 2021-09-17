@@ -1,0 +1,18 @@
+.btn{
+    &:focus {
+        box-shadow: none !important;
+    }
+    &.disabled,
+    &[disabled] {
+        cursor: not-allowed;
+    }
+}
+@import './button/xs';
+@import './button/outline';
+@import './button/square';
+@import './button/circle';
+@import './button/ripple';
+@import './button/animated';
+@import './button/transparent';
+@import './button/underline';
+@import './button/with-icon';

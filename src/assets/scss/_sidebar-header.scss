@@ -1,0 +1,37 @@
+$full-sidebar-width: 240px;
+$mini-sidebar-width: 60px;
+$header-height: 54px;
+$individual-menu-height: 40px;
+$individual-submenu-height: 30px;
+$sidemenu-bg: $white;
+
+@import 'menu/carousel';
+@import 'menu/common';
+@import 'menu/mini';
+@import 'menu/horizontal';
+@import 'menu/overlay';
+
+@import 'header/common';
+@import 'header/mini';
+@import 'header/horizontal';
+
+// Notification Dropdown
+.notification-list {
+    width: 300px;
+    max-width: 100%;
+    max-height: 250px;
+    background-color: transparentize($primary, 0.8);
+    > .card {
+        cursor: pointer;
+    }
+}
+
+.overlay-mask.open {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}

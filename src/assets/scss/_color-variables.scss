@@ -1,0 +1,60 @@
+//Bootstrap Defaults
+$blue: #084b83;
+$indigo: #414288;
+$purple: #6200ee;
+$pink: #f06c9b;
+$red: #e63946;
+$orange: #f06449;
+$yellow: #fdbb2d;
+$green: #5fb49c;
+$teal: #009688;
+$cyan: #00bcd4;
+$black: #011627;
+$white: #fff;
+
+// Primary Color Variants
+
+$special-pink: #d81b60;
+$special-paradise-pink: #e5446d;
+$special-ruby: #8b2635;
+$special-eggplant: #4c2b36;
+$special-sienna: #3d0814;
+$special-jet: #353238;
+$special-dark: #2a2b2a;
+$special-cedar-chest: #be5a38;
+$special-gunmetal: #143642;
+$special-blue: #0b3954;
+$special-red: #f05454;
+$special-orange: #f9813a;
+$special-green: #4caf50;
+$special-lightgreen: #16a596;
+$special-brown: #92817a;
+$special-coffee: #8d6346;
+
+// Custom Color
+$main: #172736;
+
+
+$theme-colors: (
+  "special-pink": $special-pink,
+  "special-paradise-pink": $special-paradise-pink,
+  "special-ruby": $special-ruby,
+  "special-eggplant": $special-eggplant,
+  "special-sienna": $special-sienna,
+  "special-jet": $special-jet,
+  "special-dark": $special-dark,
+  "special-cedar-chest": $special-cedar-chest,
+  "special-gunmetal": $special-gunmetal,
+  "special-blue": $special-blue,
+  "special-red": $special-red,
+  "special-orange": $special-orange,
+  "special-green": $special-green,
+  "special-lightgreen": $special-lightgreen,
+  "special-brown": $special-brown,
+  "special-coffee": $special-coffee,
+  "main": $main,
+);
+
+// Current Primary Color
+$primary: $indigo !default;
+

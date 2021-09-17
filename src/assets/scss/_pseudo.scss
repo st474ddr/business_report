@@ -1,0 +1,31 @@
+::selection {
+    background-color: $primary;
+    color: #fff;
+}
+
+//Not supported in IE/Firefox
+*::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+*:hover {
+    &::-webkit-scrollbar {
+        width: 6px !important;
+        height: 6px !important;
+    }
+}
+body::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.08);
+}
+::-webkit-scrollbar {
+    /* display: none; */
+}

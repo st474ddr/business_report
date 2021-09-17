@@ -1,0 +1,10 @@
+.main-wrapper.mini{
+    .right-area {
+        margin-left: $mini-sidebar-width;
+    }
+    @include media-breakpoint-down(md) {
+        .sidebar {
+            margin-left: 0;
+        }
+    }
+}
