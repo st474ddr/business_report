@@ -1,0 +1,40 @@
+{
+  "config": {
+    "type": "doughnut",
+    "data": {
+      "datasets": [
+        {
+          "data": ["25.6%", "14.4%", "50%", "10%"],
+          "backgroundColor": "colorPalette",
+          "label": "eCommerce Sales"
+        }
+      ],
+      "labels": ["冰箱", "洗衣機", "冷氣", "電視機"]
+    },
+    "options": {
+      "responsive": false,
+      "legend": {
+        "boxWidth": 10,
+        "position": "bottom",
+        "offsetX": 100,
+        "offsetY": 30,
+        "itemMargin": {
+          "vertical": 20
+        }
+      },
+      "animation": {
+        "animateScale": true,
+        "animateRotate": true
+      },
+      "layout": {
+        "padding": {
+          "left": 10,
+          "right": 10,
+          "top": 10,
+          "bottom": 10
+        }
+      },
+      "cutoutPercentage": 70
+    }
+  }
+}

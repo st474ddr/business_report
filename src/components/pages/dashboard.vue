@@ -194,7 +194,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-6 col-sm-6 col-md-6 col-lg-4 h-25">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-6 h-25">
         <div class="card shadow">
           <div class="card-body">
             <h3 class="card-title mb-4">子部門銷額占比</h3>
@@ -207,19 +207,43 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+       <div class="col-12 col-md-12 col-lg-6">
         <div class="card shadow">
-          <div class="card-body">
-            <div>
-              <h3 class="card-title mb-4 float-sm-left">營收比較</h3>
+          <div class="card-body p-0">
+            <div class="card-header bg-white">Top 5 商品</div>
+            <div class="table-responsive">
+              <table class="table">
+                <thead class="thead-light">
+                  <tr>
+                    <th>品牌</th>
+                    <th>熱門程度</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="brand in topData">
+                    <td>{{ brand.name }}</td>
+                    <td>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          :class="brand.info"
+                          style="aria-valuemin= '0'
+                          aria-valuemax= '100'"
+                          :style="brand.valuenow"
+                        ></div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div id="bar-chart"></div>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
         <div class="card shadow">
           <div class="card-body">
             <h3 class="card-title mb-4 float-sm-left">相關產業新聞</h3>
@@ -284,40 +308,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-12 col-lg-4">
-        <div class="card shadow">
-          <div class="card-body p-0">
-            <div class="card-header bg-white">Top 5 商品</div>
-            <div class="table-responsive">
-              <table class="table">
-                <thead class="thead-light">
-                  <tr>
-                    <th>品牌</th>
-                    <th>熱門程度</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="brand in topData">
-                    <td>{{ brand.name }}</td>
-                    <td>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          :class="brand.info"
-                          style="aria-valuemin= '0'
-                          aria-valuemax= '100'"
-                          :style="brand.valuenow"
-                        ></div>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
+    
     </div>
     <div class="row">
       <div class="col-12">

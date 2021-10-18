@@ -1,0 +1,19 @@
+{
+  "carousel": [ {
+      "news_title": "Rich Text for Laravel",
+      "news_content": "Rich Text Laravel integrates the Trix Editor with Laravel and is inspired by the Action Text gem from Rails......",
+      "news_link": "https://laravel-news.com/rich-text-for-laravel",
+      "image_link": "https://laravelnews.imgix.net/images/rich-text-laravel-featured.png?ixlib=php-3.3.1",
+      "news_source": "laravel-news",
+      "published_at": "September 16th, 2021"
+    },
+    {
+      "news_title": "Laravel API Response Helpers",
+      "news_content": "Laravel API Response Helpers is a super simple package allowing for consistent API responses throughout your Laravel application...",
+      "news_link": "https://laravel-news.com/laravel-api-response-helpers",
+      "image_link": "https://laravelnews.imgix.net/images/api-computer-laravelnews-featured.png?ixlib=php-3.3.1",
+      "news_source": "laravel-news",
+      "published_at": "September 10th, 2021"
+    }
+  ]
+}

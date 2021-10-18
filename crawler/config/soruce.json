@@ -1,0 +1,33 @@
+{
+  "sources": {
+    "經濟日報-產業-綜合產業": {
+      "url": "https://money.udn.com/rssfeed/news/1001/5591/10871?ch=money",
+      "start_column": 1
+    },
+    "經濟日報-產業-產業熱點": {
+      "url": "https://money.udn.com/rssfeed/news/1001/5591/5612?ch=money",
+      "start_column": 1
+    },
+    "經濟日報-商情-熱門亮點": {
+      "url": "https://money.udn.com/rssfeed/news/1001/5597/5635?ch=money",
+      "start_column": 1
+    },
+    "經濟日報-證券-集中市場": {
+      "url": "https://money.udn.com/rssfeed/news/1001/5590/5710?ch=money",
+      "start_column": 1
+    },
+    "ETtoday": {
+      "url": "http://feeds.feedburner.com/ettoday/finance?format=xml",
+      "start_column": 1
+    },
+    "自由時報-財經": {
+      "url": "https://news.ltn.com.tw/rss/business.xml",
+      "start_column": 0
+    },
+    "T客邦": {
+      "url": "http://feeds.feedburner.com/techbang/daily?format=xml",
+      "start_column": 1
+    }
+  },
+  "key_words": [""]
+}
