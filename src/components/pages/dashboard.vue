@@ -1,9 +1,6 @@
 <template>
   <div>
     <div class="row">
-       <input type="date" class="form-control" id="date_input">
-    </div>
-    <div class="row">
       <div class="col-12 col-sm-6 col-md-6 col-lg-3 h-100">
         <div class="card shadow">
           <div class="card-body">
