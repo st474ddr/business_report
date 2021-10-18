@@ -92,28 +92,28 @@
             </a>
             <ul class="collapse" id="errorPages">
               <li>
-                <a href="403.html" target="_blank" class="">
+                <router-link to="403_error"  class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">403 Page</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="404.html" target="_blank" class="">
+                <router-link to="404_error" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">404 Page</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="500.html" target="_blank" class="">
+                <router-link to="500_error" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">500 Page</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="503.html" target="_blank" class="">
+                <router-link to="503_error" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">503 Page</span>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>

@@ -53,6 +53,30 @@ let testRoutes = [{
     meta: {
         title: '忘記密碼頁面'
     }
+}, {
+    path: '/403_error',
+    component: () => import('../components/pages/403_error.vue'),
+    meta: {
+        title: '忘記密碼頁面'
+    }
+}, {
+    path: '/404_error',
+    component: () => import('../components/pages/404_error.vue'),
+    meta: {
+        title: '忘記密碼頁面'
+    }
+}, {
+    path: '/500_error',
+    component: () => import('../components/pages/500_error.vue'),
+    meta: {
+        title: '忘記密碼頁面'
+    }
+}, {
+    path: '/503_error',
+    component: () => import('../components/pages/503_error.vue'),
+    meta: {
+        title: '忘記密碼頁面'
+    }
 }
 
 
