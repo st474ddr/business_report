@@ -12,7 +12,7 @@
         <div class="navigation-arrow">
           <i class="material-icons">chevron_left</i>
         </div>
-       
+
         <ul>
           <li class="separator">
             <span>功能</span>
@@ -38,16 +38,16 @@
                 </router-link>
               </li>
               <li>
-                 <router-link to="/bulletin">
+                <router-link to="/bulletin">
                   <span class="icon material-icons">remove</span>
                   <span class="text">公佈欄</span>
                 </router-link>
               </li>
               <li>
-                <a href="contacts.html" class="">
+                <router-link to="/contacts">
                   <span class="icon material-icons">remove</span>
                   <span class="text">聯絡方式</span>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -59,28 +59,28 @@
             </a>
             <ul class="collapse" id="authenticationPage">
               <li>
-                <a href="login.html" class="">
+                <router-link to="/login">
                   <span class="icon material-icons">remove</span>
                   <span class="text">登入</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="register.html" class="">
+                <router-link to="/register">
                   <span class="icon material-icons">remove</span>
                   <span class="text">註冊</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="relogin.html" class="">
+                <router-link to="/relogin">
                   <span class="icon material-icons">remove</span>
                   <span class="text">重新登入</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="reset.html" class="">
+                <router-link to="/reset">
                   <span class="icon material-icons">remove</span>
                   <span class="text">忘記密碼</span>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>

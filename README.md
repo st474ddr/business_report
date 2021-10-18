@@ -8,4 +8,5 @@ demo 圖:
 可以自由搭配各種圖形套件  
 如:D3.js, chart.js, highChart.js, apexChart.js...等  
 打造專屬自己方便呈現的圖形化儀表板  
-
+  
+本專案前端呈現使用 vue.js + webpack，後端撈取資料部分使用 PHP  

@@ -23,7 +23,38 @@ let testRoutes = [{
     meta: {
         title: '公佈欄'
     }
+}, {
+    path: '/contacts',
+    component: () => import('../components/pages/contacts.vue'),
+    meta: {
+        title: '聯絡方式'
+    }
+}, {
+    path: '/login',
+    component: () => import('../components/pages/login.vue'),
+    meta: {
+        title: '登入頁面'
+    }
+}, {
+    path: '/register',
+    component: () => import('../components/pages/register.vue'),
+    meta: {
+        title: '註冊頁面'
+    }
+}, {
+    path: '/relogin',
+    component: () => import('../components/pages/relogin.vue'),
+    meta: {
+        title: '忘記密碼頁面'
+    }
+}, {
+    path: '/reset',
+    component: () => import('../components/pages/reset.vue'),
+    meta: {
+        title: '忘記密碼頁面'
+    }
 }
+
 
 
 
