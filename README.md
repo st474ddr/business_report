@@ -10,3 +10,8 @@ demo 圖:
 打造專屬自己方便呈現的圖形化儀表板  
   
 本專案前端呈現使用 vue.js + webpack，後端撈取資料部分使用 PHP  
+# build  
+``` 
+npm install   
+npm run start
+```
