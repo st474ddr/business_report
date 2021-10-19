@@ -1,7 +1,4 @@
 node_modules
 dist/*
-*.jpg
-*.png
-*.svg
 .vscode/*
 vendor
