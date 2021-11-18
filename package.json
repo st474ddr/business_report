@@ -5,14 +5,17 @@
   "main": "webpack.config.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
+    "@types/fullcalendar": "^3.8.0",
     "apexcharts": "^3.27.3",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "bootstrap": "^4.5.3",
     "chart.js": "^2.9.4",
-    "fullcalendar": "^5.9.0",
+    "fullcalendar": "^5.10.1",
     "highcharts": "^9.2.2",
     "jquery": "^3.6.0",
+    "nanobar": "^0.4.2",
     "pickerjs": "^1.2.1",
+    "sweetalert2": "^11.1.10",
     "toastr": "^2.1.4",
     "vue": "^2.6.13",
     "vue-apexcharts": "^1.6.2",
@@ -44,7 +47,7 @@
     "vue-template-compiler": "^2.6.13",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.5.0"
   },
   "scripts": {
     "watch": "cross-env NODE_ENV=development webpack --watch --progress --color",

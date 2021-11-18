@@ -129,62 +129,62 @@
             </a>
             <ul class="collapse" id="uiElements">
               <li>
-                <a href="alerts.html" class="">
+                 <router-link to="/alert">
                   <span class="icon material-icons">remove</span>
                   <span class="text">警告</span>
-                </a>
+                </router-link>
               </li>
 
               <li>
-                <a href="badges.html" class="">
+                <router-link to="/badges">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">徽章</span>
-                </a>
+                  <span class="text">標籤</span>
+                </router-link>
               </li>
               <li>
-                <a href="buttons.html" class="">
+                <router-link to="/buttons">
                   <span class="icon material-icons">remove</span>
                   <span class="text">按鈕</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="cards.html" class="">
+                <router-link to="/cards">
                   <span class="icon material-icons">remove</span>
                   <span class="text">卡片</span>
-                </a>
+                </router-link>
               </li>
 
               <li>
-                <a href="context-menu.html" class="">
+                <router-link to="/context-menu">
                   <span class="icon material-icons">remove</span>
                   <span class="text">文字目錄</span>
-                </a>
+                </router-link>
               </li>
 
               <li>
-                <a href="icons.html" class="">
+                <router-link to="/icons">
                   <span class="icon material-icons">remove</span>
                   <span class="text">Icons</span>
-                </a>
+                </router-link>
               </li>
 
               <li>
-                <a href="typography.html" class="">
+                <router-link to="/typography">
                   <span class="icon material-icons">remove</span>
                   <span class="text">排版</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="flex-grid.html" class="">
+                <router-link to="/flex-grid">
                   <span class="icon material-icons">remove</span>
                   <span class="text">切版</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="spinners.html" class="">
+                <router-link to="/spinners">
                   <span class="icon material-icons">remove</span>
                   <span class="text">旋轉</span>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -198,49 +198,49 @@
               <li>
                 <a href="accordians.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Accordians</span>
+                  <span class="text">摺疊面板(Accordions)</span>
                 </a>
               </li>
               <li>
                 <a href="avatar.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Avatar</span>
+                  <span class="text">頭像(Avatar)</span>
                 </a>
               </li>
               <li>
                 <a href="colors.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Colors</span>
+                  <span class="text">顏色</span>
                 </a>
               </li>
               <li>
                 <a href="modals.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Modals</span>
+                  <span class="text">互動視窗(Modals)</span>
                 </a>
               </li>
               <li>
                 <a href="notifications.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Notifications</span>
+                  <span class="text">通知</span>
                 </a>
               </li>
               <li>
                 <a href="tabs.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Tabs & Pills</span>
+                  <span class="text">標籤(Tabs & Pills)</span>
                 </a>
               </li>
               <li>
                 <a href="timeline.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Timeline</span>
+                  <span class="text">時程表</span>
                 </a>
               </li>
               <li>
                 <a href="tooltips.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Tooltips & Popovers</span>
+                  <span class="text">提示(Tooltips)</span>
                 </a>
               </li>
             </ul>
@@ -256,31 +256,31 @@
               <li>
                 <a href="forms.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Form Styling</span>
+                  <span class="text">表單排版</span>
                 </a>
               </li>
               <li>
                 <a href="validations.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Validation</span>
+                  <span class="text">驗證</span>
                 </a>
               </li>
               <li>
                 <a href="pickers.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Pickers</span>
+                  <span class="text">選擇器</span>
                 </a>
               </li>
               <li>
                 <a href="uploaders.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Uploader</span>
+                  <span class="text">上傳</span>
                 </a>
               </li>
               <li>
                 <a href="wysiwyg.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">WYSIWYG Editors</span>
+                  <span class="text">編輯器(WYSIWYG)</span>
                 </a>
               </li>
             </ul>
@@ -295,13 +295,13 @@
               <li>
                 <a href="tables.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Simple Table</span>
+                  <span class="text">表格</span>
                 </a>
               </li>
               <li>
                 <a href="data-tables.html" class="">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">Data Tables</span>
+                  <span class="text">報表</span>
                 </a>
               </li>
             </ul>
