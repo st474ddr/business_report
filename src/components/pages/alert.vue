@@ -1,9 +1,5 @@
 <template>
   <div>
-    <div class="page-header">
-      <span class="h2">警告元素</span>
-      <small>請注意!</small>
-    </div>
     <div class="row">
       <div class="col-md-6">
         <div class="card shadow">

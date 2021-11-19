@@ -1,13 +1,5 @@
 <template>
   <div>
-    <div class="page-header">
-      <div class="row">
-        <div class="col-sm-8">
-          <span class="h2">卡片</span>
-          <small></small>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-12 col-md-3">
         <div class="card text-white card-head-primary shadow">

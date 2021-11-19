@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="page-header">
-      <span class="h2">聯絡人清單</span>
-    </div>
     <div class="row">
       <div class="col-12 col-sm-12 col-md-4">
         <div class="card shadow">

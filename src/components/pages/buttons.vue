@@ -1,9 +1,5 @@
 <template>
   <div>
-    <div class="page-header">
-      <span class="h2">按鈕</span>
-      <small>盡量點</small>
-    </div>
     <div class="row">
       <div class="col-12 col-md-6">
         <div class="card shadow">

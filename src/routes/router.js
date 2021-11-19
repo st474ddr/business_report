@@ -3,140 +3,161 @@ let testRoutes = [{
     name: "Dashboard",
     component: () => import('../components/pages/dashboard.vue'),
     meta: {
-        title: 'dashboard'
+        title: 'dashboard',
+        note: ''
     }
 }, {
     path: '/mail',
     component: () => import('../components/pages/mail.vue'),
     meta: {
-        title: '信箱'
+        title: '信箱',
+        note: ''
     }
 }, {
     path: '/calendar',
     component: () => import('../components/pages/calendar.vue'),
     meta: {
-        title: '日曆'
+        title: '日曆',
+        note: ''
     }
 }, {
     path: '/bulletin',
     component: () => import('../components/pages/bulletin.vue'),
     meta: {
-        title: '公佈欄'
+        title: '公佈欄',
+        note: ''
     }
 }, {
     path: '/contacts',
     component: () => import('../components/pages/contacts.vue'),
     meta: {
-        title: '聯絡方式'
+        title: '聯絡人清單',
+        note: '找找好朋友'
     }
 }, {
     path: '/login',
     component: () => import('../components/pages/login.vue'),
     meta: {
-        title: '登入頁面'
+        title: '登入',
+        note: ''
     }
 }, {
     path: '/register',
     component: () => import('../components/pages/register.vue'),
     meta: {
-        title: '註冊頁面'
+        title: '註冊',
+        note: ''
     }
 }, {
     path: '/relogin',
     component: () => import('../components/pages/relogin.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '忘記密碼',
+        note: ''
     }
 }, {
     path: '/reset',
     component: () => import('../components/pages/reset.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '重設密碼',
+        note: ''
     }
 }, {
     path: '/403_error',
     component: () => import('../components/pages/403_error.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '403錯誤',
+        note: ''
     }
 }, {
     path: '/404_error',
     component: () => import('../components/pages/404_error.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '404錯誤',
+        note: ''
     }
 }, {
     path: '/500_error',
     component: () => import('../components/pages/500_error.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '500錯誤',
+        note: ''
     }
 }, {
     path: '/503_error',
     component: () => import('../components/pages/503_error.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '503錯誤',
+        note: ''
     }
 }, {
     path: '/alert',
     component: () => import('../components/pages/alert.vue'),
     meta: {
-        title: '警告'
+        title: '警告',
+        note: '請注意!'
     }
 }, {
     path: '/badges',
     component: () => import('../components/pages/badges.vue'),
     meta: {
-        title: '標籤'
+        title: '標籤',
+        note: ''
     }
 }, {
     path: '/buttons',
     component: () => import('../components/pages/buttons.vue'),
     meta: {
-        title: '按鈕'
+        title: '按鈕',
+        note: '盡量點'
     }
 },  {
     path: '/cards',
     component: () => import('../components/pages/cards.vue'),
     meta: {
-        title: '卡片'
+        title: '卡片',
+        note: ''
     }
     
 },  {
-    path: '/503_error',
-    component: () => import('../components/pages/503_error.vue'),
+    path: '/context-menu',
+    component: () => import('../components/pages/context-menu.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '文字目錄',
+        note: ''
     }
     
 },  {
-    path: '/503_error',
-    component: () => import('../components/pages/503_error.vue'),
+    path: '/icons',
+    component: () => import('../components/pages/icons.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: 'icons',
+        note: ''
     }
     
 },  {
-    path: '/503_error',
-    component: () => import('../components/pages/503_error.vue'),
+    path: '/typography',
+    component: () => import('../components/pages/typography.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '排版',
+        note: ''
     }
     
 },  {
-    path: '/503_error',
-    component: () => import('../components/pages/503_error.vue'),
+    path: '/flex-grid',
+    component: () => import('../components/pages/flex-grid.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '切版',
+        note: ''
     }
     
 },  {
-    path: '/503_error',
-    component: () => import('../components/pages/503_error.vue'),
+    path: '/spinners',
+    component: () => import('../components/pages/spinners.vue'),
     meta: {
-        title: '忘記密碼頁面'
+        title: '旋轉',
+        note: ''
     }
-    
 }
 
 

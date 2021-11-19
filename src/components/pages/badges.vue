@@ -1,11 +1,5 @@
 <template>
   <div>
-    <div class="page-header">
-      <div>
-        <span class="h2">標籤</span>
-        <small></small>
-      </div>
-    </div>
     <div class="row py-3">
       <div class="col-sm-6">
         <div class="card shadow">
