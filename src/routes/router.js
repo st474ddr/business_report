@@ -123,7 +123,7 @@ let testRoutes = [{
     path: '/context-menu',
     component: () => import('../components/pages/context-menu.vue'),
     meta: {
-        title: '文字目錄',
+        title: '工具列目錄',
         note: ''
     }
     
@@ -140,7 +140,7 @@ let testRoutes = [{
     component: () => import('../components/pages/typography.vue'),
     meta: {
         title: '排版',
-        note: ''
+        note: '同 BS'
     }
     
 },  {
@@ -148,14 +148,14 @@ let testRoutes = [{
     component: () => import('../components/pages/flex-grid.vue'),
     meta: {
         title: '切版',
-        note: ''
+        note: '同 BS'
     }
     
 },  {
     path: '/spinners',
     component: () => import('../components/pages/spinners.vue'),
     meta: {
-        title: '旋轉',
+        title: '旋轉特效',
         note: ''
     }
 }

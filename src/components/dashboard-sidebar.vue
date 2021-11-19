@@ -157,7 +157,7 @@
               <li>
                 <router-link to="/context-menu">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">文字目錄</span>
+                  <span class="text">工具列目錄</span>
                 </router-link>
               </li>
 
@@ -183,7 +183,7 @@
               <li>
                 <router-link to="/spinners">
                   <span class="icon material-icons">remove</span>
-                  <span class="text">旋轉</span>
+                  <span class="text">旋轉特效</span>
                 </router-link>
               </li>
             </ul>

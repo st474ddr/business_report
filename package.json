@@ -5,7 +5,6 @@
   "main": "webpack.config.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
-    "@types/fullcalendar": "^3.8.0",
     "apexcharts": "^3.27.3",
     "axios": "^0.21.4",
     "bootstrap": "^4.5.3",
@@ -13,6 +12,7 @@
     "fullcalendar": "^5.10.1",
     "highcharts": "^9.2.2",
     "jquery": "^3.6.0",
+    "long-press-event": "^2.4.4",
     "nanobar": "^0.4.2",
     "pickerjs": "^1.2.1",
     "sweetalert2": "^11.1.10",
@@ -27,6 +27,7 @@
     "@babel/core": "^7.14.3",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.14.4",
+    "@types/fullcalendar": "^3.8.0",
     "autoprefixer": "^10.2.6",
     "babel-loader": "^8.2.2",
     "canvg": "^3.0.7",
