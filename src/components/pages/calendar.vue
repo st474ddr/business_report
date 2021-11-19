@@ -19,7 +19,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="eventModalLabel">Create Event</h5>
+          <h5 class="modal-title" id="eventModalLabel">新增事件</h5>
           <button
             type="button"
             class="close"
@@ -33,22 +33,22 @@
           <form>
             <div class="form-group">
               <label for="event-name" class="col-form-label"
-                >Event Title:</label
+                >事件主旨</label
               >
               <input type="text" class="form-control" id="event-name" />
             </div>
             <div class="form-group">
-              <label for="basic_input" class="col-form-label">Date:</label>
+              <label for="basic_input" class="col-form-label">日期</label>
               <input type="date" class="form-control" id="basic_input" />
             </div>
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">
-            Close
+            關閉
           </button>
-          <button type="button" class="btn btn-primary" onclick="saveEvent();">
-            Add Event
+          <button type="button" class="btn btn-primary">
+            新增事件
           </button>
         </div>
       </div>

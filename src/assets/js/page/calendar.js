@@ -1,23 +1,29 @@
 import Picker from 'pickerjs';
-import FullCalendar from 'fullcalendar';
-$(function(){
+import { Calendar } from '@fullcalendar/core';
+import zhTwLocale from '@fullcalendar/core/locales/zh-tw';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import timeGridPlugin from '@fullcalendar/timegrid';
+import listPlugin from '@fullcalendar/list';
 
+$(function () {
     'use strict';
-    
+    /*
     let basic_input = document.getElementById('basic_input');
     let basic_picker = new Picker(basic_input, {
         format: 'YYYY-MM-DD',
     });
     basic_picker.getDate(true);
-
-
-
+    */
+    let today = new Date();
     let calendar;
     let calendarEl = document.getElementById('calendar');
-  
-    calendar = new FullCalendar.Calendar(calendarEl, {
+
+    calendar = new Calendar(calendarEl, {
+        plugins: [dayGridPlugin, timeGridPlugin, listPlugin],
+        locales: [zhTwLocale],
+        locale: 'zh-tw',
         initialView: 'dayGridMonth',
-        initialDate: '2021-12-07',
+        initialDate: today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate(),
         themeSystem: 'bootstrap',
         selectable: true,
         editable: true,
@@ -33,32 +39,41 @@ $(function(){
         },
         customButtons: {
             addEventButton: {
-                text: 'add event',
-                icon: 'fa-plus',
-                click: function() {
+                text: '新增事件',
+                themeIcon: 'fa-plus',
+                click: function () {
                     addEvent('');
                 }
             }
         },
-        dateClick: function(info) {
+        dateClick: function (info) {
             addEvent(info.dateStr);
         },
         events: [{
             title: '午餐時間',
-            start: '2021-12-12T12:00:00'
+            start: '2021-11-12T12:00:00'
         }, {
             title: '會議',
-            start: '2021-12-12T14:30:00'
+            start: '2021-11-12T14:30:00'
+        }, {
+            title: '面試',
+            start: '2021-11-22T14:30:00'
+        }, {
+            title: '面試',
+            start: '2021-11-24T14:00:00'
         }, {
             title: '前往 google',
             url: 'http://google.com/',
-            start: '2021-12-28'
+            start: '2021-11-28'
         }]
     });
 
     calendar.render();
 
-    
+    $(document).on('click', '.modal-footer > .btn-primary', function(){
+        saveEvent();
+    })
+
     function addEvent(dateStr) {
         if (typeof dateStr !== 'undefined')
             $('#basic_input').val(dateStr);
@@ -80,9 +95,9 @@ $(function(){
             console.info('您好，正更新中...');
             $('#eventModal').modal('hide');
         } else {
-            console.log('Invalid date.');
+            console.log('無效日期');
         }
     }
 
-    
+
 });

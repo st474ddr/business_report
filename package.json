@@ -5,6 +5,10 @@
   "main": "webpack.config.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
+    "@fullcalendar/core": "^5.10.1",
+    "@fullcalendar/daygrid": "^5.10.1",
+    "@fullcalendar/list": "^5.10.1",
+    "@fullcalendar/timegrid": "^5.10.1",
     "apexcharts": "^3.27.3",
     "axios": "^0.21.4",
     "bootstrap": "^4.5.3",
@@ -13,6 +17,7 @@
     "highcharts": "^9.2.2",
     "jquery": "^3.6.0",
     "long-press-event": "^2.4.4",
+    "moment": "^2.29.1",
     "nanobar": "^0.4.2",
     "pickerjs": "^1.2.1",
     "sweetalert2": "^11.1.10",
