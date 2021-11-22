@@ -196,52 +196,52 @@
             </a>
             <ul class="collapse" id="uiComponents">
               <li>
-                <a href="accordians.html" class="">
+                <router-link to="/accordians" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">摺疊面板(Accordions)</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="avatar.html" class="">
+                <router-link to="/avatar" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">頭像(Avatar)</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="colors.html" class="">
+                <router-link to="/colors" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">顏色</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="modals.html" class="">
+                <router-link to="/modals" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">互動視窗(Modals)</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="notifications.html" class="">
+                <router-link to="/notifications" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">通知</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="tabs.html" class="">
+                <router-link to="/tabs" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">標籤(Tabs & Pills)</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="timeline.html" class="">
+                <router-link to="/timeline" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">時程表</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="tooltips.html" class="">
+                <router-link to="/tooltips" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">提示(Tooltips)</span>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>

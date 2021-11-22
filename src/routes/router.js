@@ -158,6 +158,83 @@ let testRoutes = [{
         title: '旋轉特效',
         note: ''
     }
+},  {
+    path: '/accordians',
+    component: () => import('../components/pages/accordians.vue'),
+    meta: {
+        title: '摺疊面板',
+        note: ''
+    }
+},  {
+    path: '/avatar',
+    component: () => import('../components/pages/avatar.vue'),
+    meta: {
+        title: '頭像',
+        note: ''
+    }
+},  {
+    path: '/colors',
+    component: () => import('../components/pages/colors.vue'),
+    meta: {
+        title: '顏色',
+        note: ''
+    }
+},  {
+    path: '/modals',
+    component: () => import('../components/pages/modals.vue'),
+    meta: {
+        title: '互動視窗',
+        note: ''
+    }
+},  {
+    path: '/notifications',
+    component: () => import('../components/pages/notifications.vue'),
+    meta: {
+        title: '通知',
+        note: ''
+    }
+},  {
+    path: '/tabs',
+    component: () => import('../components/pages/tabs.vue'),
+    meta: {
+        title: '標籤',
+        note: ''
+    }
+},  {
+    path: '/timeline',
+    component: () => import('../components/pages/timeline.vue'),
+    meta: {
+        title: '時程表',
+        note: ''
+    }
+},  {
+    path: '/tooltips',
+    component: () => import('../components/pages/tooltips.vue'),
+    meta: {
+        title: '提示',
+        note: ''
+    }
+},  {
+    path: '/modals',
+    component: () => import('../components/pages/modals.vue'),
+    meta: {
+        title: '互動視窗',
+        note: ''
+    }
+},  {
+    path: '/modals',
+    component: () => import('../components/pages/modals.vue'),
+    meta: {
+        title: '互動視窗',
+        note: ''
+    }
+},  {
+    path: '/modals',
+    component: () => import('../components/pages/modals.vue'),
+    meta: {
+        title: '互動視窗',
+        note: ''
+    }
 }
 
 

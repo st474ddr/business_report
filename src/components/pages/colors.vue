@@ -1,0 +1,226 @@
+<template>
+  <div>
+    <div class="row">
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-primary mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Primary</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">.bg-primary</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-secondary mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Secondary</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">.bg-secondary</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-success mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Success</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">.bg-success</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-warning mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Warning</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">.bg-warning</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-danger mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Danger</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">.bg-danger</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-dark bg-light mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Light</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">.bg-light</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-dark mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Dark</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">.bg-dark</div>
+        </div>
+      </div>
+    </div>
+    <div class="page-header mt-4">
+      <span class="h2">特別顏色</span>
+      <small>更多...</small>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-pink mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Pink</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#d81b60</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-paradise-pink mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Paradise Pink</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#E5446D</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-ruby mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Ruby</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#8B2635</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-eggplant mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Eggplant</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#4C2B36</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-sienna mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Sienna</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#3D0814</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-jet mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Jet</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#353238</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-dark mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Dark</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#2A2B2A</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-cedar-chest mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Cedar Chest</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#BE5A38</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-gunmetal mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Gunmetal</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#143642</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-blue mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Blue</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#0B3954</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-red mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Red</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#f05454</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-orange mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Special Orange</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#ff8e71</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-green mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Green</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#5aa469</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-lightgreen mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Light Green</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#16a596</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-brown mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Brown</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#92817a</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3">
+        <div class="card text-white bg-special-coffee mb-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Coffee</h4>
+            <div class="color-card"></div>
+          </div>
+          <div class="card-footer bg-transparent">#825959</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+</style>

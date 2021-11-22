@@ -9,6 +9,7 @@ import VueAxios from 'vue-axios';
 import VueRouter from 'vue-router';
 import routes from './routes/root-router';
 import VueApexCharts from 'vue-apexcharts';
+
 import 'jquery'
 import 'bootstrap'
 // global register
@@ -17,6 +18,8 @@ Vue.use(VueRouter);
 Vue.use(VueApexCharts);
 
 Vue.component('apexchart', VueApexCharts)
+
+//setup
 
 const router = new VueRouter({
     routes // routes: routes
