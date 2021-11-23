@@ -254,34 +254,28 @@
             </a>
             <ul class="collapse" id="formStuff">
               <li>
-                <a href="forms.html" class="">
+                <router-link to="/forms" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">表單排版</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="validations.html" class="">
+                <router-link to="/validations" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">驗證</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="pickers.html" class="">
+                <router-link to="/pickers" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">選擇器</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="uploaders.html" class="">
-                  <span class="icon material-icons">remove</span>
-                  <span class="text">上傳</span>
-                </a>
-              </li>
-              <li>
-                <a href="wysiwyg.html" class="">
+                <router-link to="/wysiwyg" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">編輯器(WYSIWYG)</span>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>

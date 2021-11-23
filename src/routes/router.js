@@ -215,17 +215,38 @@ let testRoutes = [{
         note: ''
     }
 },  {
-    path: '/modals',
-    component: () => import('../components/pages/modals.vue'),
+    path: '/forms',
+    component: () => import('../components/pages/forms.vue'),
+    meta: {
+        title: '表單排版',
+        note: ''
+    }
+},  {
+    path: '/validations',
+    component: () => import('../components/pages/validations.vue'),
+    meta: {
+        title: '驗證',
+        note: ''
+    }
+},  {
+    path: '/pickers',
+    component: () => import('../components/pages/pickers.vue'),
+    meta: {
+        title: '選擇器',
+        note: ''
+    }
+},  {
+    path: '/uploaders',
+    component: () => import('../components/pages/uploaders.vue'),
     meta: {
         title: '互動視窗',
         note: ''
     }
 },  {
-    path: '/modals',
-    component: () => import('../components/pages/modals.vue'),
+    path: '/wysiwyg',
+    component: () => import('../components/pages/wysiwyg.vue'),
     meta: {
-        title: '互動視窗',
+        title: '編輯器',
         note: ''
     }
 },  {
