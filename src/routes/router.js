@@ -250,10 +250,45 @@ let testRoutes = [{
         note: ''
     }
 },  {
-    path: '/modals',
-    component: () => import('../components/pages/modals.vue'),
+    path: '/tables',
+    component: () => import('../components/pages/tables.vue'),
     meta: {
-        title: '互動視窗',
+        title: '表格',
+        note: ''
+    }
+},  {
+    path: '/data-tables',
+    component: () => import('../components/pages/data-tables.vue'),
+    meta: {
+        title: '報表',
+        note: ''
+    }
+},  {
+    path: '/apex-charts',
+    component: () => import('../components/pages/apex-charts.vue'),
+    meta: {
+        title: 'ApexCharts',
+        note: ''
+    }
+},  {
+    path: '/chart-js',
+    component: () => import('../components/pages/chart-js.vue'),
+    meta: {
+        title: 'Chart.js',
+        note: ''
+    }
+},  {
+    path: '/google-maps',
+    component: () => import('../components/pages/google-maps.vue'),
+    meta: {
+        title: 'Google Maps',
+        note: ''
+    }
+},  {
+    path: '/vector-maps',
+    component: () => import('../components/pages/vector-maps.vue'),
+    meta: {
+        title: 'Vector Maps',
         note: ''
     }
 }

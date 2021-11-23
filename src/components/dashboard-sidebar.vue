@@ -287,38 +287,16 @@
             </a>
             <ul class="collapse" id="data-grid-menu">
               <li>
-                <a href="tables.html" class="">
+                <router-link to="/tables" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">表格</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="data-tables.html" class="">
+                <router-link to="/data-tables" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">報表</span>
-                </a>
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <a href="#charts-menu" data-toggle="collapse">
-              <span class="caret material-icons">arrow_right</span>
-              <span class="icon material-icons">bar_chart</span>
-              <span class="text">圖形</span>
-            </a>
-            <ul class="collapse" id="charts-menu">
-              <li>
-                <a href="apex-charts.html" class="">
-                  <span class="icon material-icons">remove</span>
-                  <span class="text">ApexCharts</span>
-                </a>
-              </li>
-              <li>
-                <a href="chart-js.html" class="">
-                  <span class="icon material-icons">remove</span>
-                  <span class="text">Chart.js</span>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>
@@ -330,16 +308,16 @@
             </a>
             <ul class="collapse" id="maps-menu">
               <li>
-                <a href="google-maps.html" class="">
+                <router-link to="/google-maps" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">Google Maps</span>
-                </a>
+                </router-link>
               </li>
               <li>
-                <a href="vector-maps.html" class="">
+                <router-link to="/vector-maps" class="">
                   <span class="icon material-icons">remove</span>
                   <span class="text">Vector Maps</span>
-                </a>
+                </router-link>
               </li>
             </ul>
           </li>
