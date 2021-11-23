@@ -23,6 +23,7 @@
     "moment": "^2.29.1",
     "nanobar": "^0.4.2",
     "pickerjs": "^1.2.1",
+    "raphael": "^2.3.0",
     "summernote": "^0.8.20",
     "sweetalert2": "^11.1.10",
     "toastr": "^2.1.4",

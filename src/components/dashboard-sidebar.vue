@@ -313,12 +313,6 @@
                   <span class="text">Google Maps</span>
                 </router-link>
               </li>
-              <li>
-                <router-link to="/vector-maps" class="">
-                  <span class="icon material-icons">remove</span>
-                  <span class="text">Vector Maps</span>
-                </router-link>
-              </li>
             </ul>
           </li>
         </ul>
